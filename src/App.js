@@ -1,15 +1,35 @@
 import React from "react";
-import logo from "./logo.svg";
+
+// CSS
 import "./App.css";
 
-import Header from "./Components/Header";
+// React Router
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-function App() {
+// Component Import
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import Home from "./Components/Home/Home";
+
+/*
+Function App - Renders App Component to the DOM
+*/
+export default function App() {
   return (
-    <div className="App">
+    <Router>
       <Header />
-    </div>
+      <Footer name="Tyler" />
+      {/* A <Switch> looks through its children <Router>s and
+            renders the first one that matches the current URL. */}
+      <Switch>
+        <Route path="/about"></Route>
+        <Route path="/pricing"></Route>
+        <Route path="/signup"></Route>
+        <Route path="/signin"></Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
-
-export default App;
