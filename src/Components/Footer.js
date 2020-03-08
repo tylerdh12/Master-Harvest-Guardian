@@ -1,18 +1,14 @@
 import React from "react";
 
-import { Navbar } from "react-bootstrap";
-
-export default function Footer(props) {
+export default function FooterComp(props) {
   return (
-    <Navbar className="neumorphic bottom" bg="dark" variant="dark">
-      <Navbar.Brand href="/"></Navbar.Brand>
-      <Navbar.Toggle />
-      <Navbar.Collapse className="justify-content-center">
-        <Navbar.Text>
-          Copyright &copy; 2020 |{" "}
+    <div className="d-flex flex-column">
+      <footer className="footer neumorphic">
+        <p className="text-center mx-auto p-2 pt-4">
+          Copyright &copy; 2020 |
           <a href="https://resume.jsstack.dev">JSStack Development</a>
-        </Navbar.Text>
-      </Navbar.Collapse>
-    </Navbar>
+        </p>
+      </footer>
+    </div>
   );
 }

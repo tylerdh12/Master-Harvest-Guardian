@@ -5,9 +5,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // Component Import
 import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import Home from "./Components/Home/Home";
-import About from "./Components/About/About";
+import FooterComp from "./Components/Footer";
+import Home from "./Routes/Home";
+import About from "./Routes/About";
 
 /*
 Function App - Renders App Component to the DOM
@@ -30,7 +30,7 @@ export default function App() {
           <Home />
         </Route>
       </Switch>
-      <Footer />
+      <FooterComp />
     </Router>
   );
 }

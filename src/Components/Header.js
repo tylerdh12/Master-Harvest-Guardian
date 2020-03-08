@@ -3,7 +3,10 @@ import { Navbar, Nav } from "react-bootstrap";
 
 function Header() {
   return (
-    <Navbar className="bg-dark neumorphic py-4" variant="dark" expand="lg">
+    <Navbar
+      className="header masthead bg-light neumorphic py-4 mb-auto"
+      expand="lg"
+    >
       <div className="container">
         <Navbar.Brand href="/">Harvest Guardian</Navbar.Brand>
         <Navbar.Toggle
@@ -11,26 +14,23 @@ function Header() {
           className="neumorphic"
         />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto">
-            <Nav.Link href="/" className="btn">
+          <Nav className="ml-auto mt-4">
+            <Nav.Link href="/" className="btn m-2">
               Home
             </Nav.Link>
-            <Nav.Link href="/about" className="btn">
+            <Nav.Link href="/about" className="btn m-2">
               About
             </Nav.Link>
-            <Nav.Link href="/pricing" className="btn">
+            <Nav.Link href="/pricing" className="btn m-2">
               Pricing
             </Nav.Link>
             <Nav.Link
               href="/signin"
-              className="btn m-1 mt-0 btn-outline-success text-success"
+              className="btn btn-outline-success text-success m-2"
             >
               Sign In
             </Nav.Link>
-            <Nav.Link
-              href="/signup"
-              className="m-1 mr-0 btn btn-success text-light"
-            >
+            <Nav.Link href="/signup" className="btn btn-success text-light m-2">
               Sign Up
             </Nav.Link>
           </Nav>
