@@ -6,7 +6,7 @@ export default function FooterComp(props) {
       <footer className="footer neumorphic">
         <p className="text-center mx-auto p-2 pt-4">
           Copyright &copy; 2020 |
-          <a href="https://resume.jsstack.dev">JSStack Development</a>
+          <a href="https://resume.jsstack.dev"> JSStack Development</a>
         </p>
       </footer>
     </div>
