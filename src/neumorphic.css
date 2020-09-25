@@ -3,14 +3,3 @@ body {
   height: 100%;
   margin: 0;
 }
-
-.neumorphic {
-  border: none;
-  background-image: linear-gradient(
-    to bottom right,
-    rgba(235, 236, 241, 0.904),
-    rgb(249, 250, 255, 0.7)
-  );
-  box-shadow: -8px -8px 8px rgb(255, 255, 255),
-    4px 4px 6px rgba(24, 24, 24, 0.171), inset 0 0 10px rgba(255, 255, 255);
-}

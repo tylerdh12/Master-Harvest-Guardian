@@ -1,20 +1,19 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 
 function Header() {
   return (
     <Navbar
-      className="header masthead bg-light neumorphic py-4 mb-auto"
+      bg="light"
+      variant="light"
+      className="header masthead py-4 mb-auto"
       expand="lg"
     >
       <div className="container">
         <Navbar.Brand href="/">Harvest Guardian</Navbar.Brand>
-        <Navbar.Toggle
-          aria-controls="basic-navbar-nav"
-          className="neumorphic"
-        />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto mt-4">
+          <Nav className="ml-auto">
             <Nav.Link href="/" className="btn m-2">
               Home
             </Nav.Link>
