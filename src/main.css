@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  color: white;
+  background: url("/assets/vegetables.jpg") rgba(41, 41, 41, 0.5);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 0;
+  padding-left: 14vw;
+  padding-right: 14vw;
+}
+
+.jumbotron .section-title {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-left: 4vw;
+  text-align: left;
+  font-size: 6ch;
+  max-width: 250px;
+  white-space: wrap;
+  margin-bottom: 18vh;
+}
+
+.jumbotron .section-title span {
+  font-style: italic;
+  font-weight: 300;
+  padding-left: 4rem;
+}
+
+.card {
+  min-width: 300px;
+}
+
+.center-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.center-buttons a {
+  margin: 1rem;
+}
+
+.nav-button {
+  border: 0px;
+}
+
+.nav-button ::active {
+  border: none;
+}
+
+.nav-button ::focus {
+  border: none;
+}
+/*# sourceMappingURL=main.css.map */
