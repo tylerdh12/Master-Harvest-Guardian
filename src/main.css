@@ -1,16 +1,21 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.pageWrapper {
+  min-height: 92vh;
 }
 
 .jumbotron {
   color: white;
-  background: url("/assets/vegetables.jpg") rgba(41, 41, 41, 0.5);
+  background: url("/assets/vegetables_Compressed.jpg") rgba(41, 41, 41, 0.5);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 100vw;
   height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,6 +33,7 @@
   border-radius: 0;
   padding-left: 14vw;
   padding-right: 14vw;
+  overflow: hidden;
 }
 
 .jumbotron .section-title {
@@ -72,11 +78,11 @@
   border: 0px;
 }
 
-.nav-button ::active {
+.nav-button:active {
   border: none;
 }
 
-.nav-button ::focus {
+.nav-button:focus {
   border: none;
 }
 /*# sourceMappingURL=main.css.map */
