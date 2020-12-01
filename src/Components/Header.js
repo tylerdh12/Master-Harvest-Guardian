@@ -17,15 +17,6 @@ function Header() {
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href="/" className="btn m-2">
-              Home
-            </Nav.Link>
-            <Nav.Link href="/about" className="btn m-2">
-              About
-            </Nav.Link>
-            <Nav.Link href="/pricing" className="btn m-2">
-              Pricing
-            </Nav.Link>
             <Nav.Link
               href="/signin"
               className="btn btn-outline-success text-success m-2"
