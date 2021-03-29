@@ -17,14 +17,8 @@ function Header() {
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link
-              href="/signin"
-              className="btn btn-outline-success text-success m-2"
-            >
-              Sign In
-            </Nav.Link>
-            <Nav.Link href="/signup" className="btn btn-success text-light m-2">
-              Sign Up
+            <Nav.Link href="https://app.harvestguardian.com" className="btn btn-success text-light m-2">
+              Sign In / Sign Up
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
