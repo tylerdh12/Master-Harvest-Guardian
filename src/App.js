@@ -5,6 +5,7 @@ import FooterComp from "./Components/Footer";
 import Home from "./Routes/Home";
 import SignIn from "./Routes/SignIn";
 import SignUp from "./Routes/SignUp";
+import About from "./Routes/About";
 
 export default function App() {
   return (
@@ -17,6 +18,9 @@ export default function App() {
           </Route>
           <Route path="/signin">
             <SignIn />
+          </Route>
+          <Route path="/about">
+            <About />
           </Route>
           <Route exact path="/">
             <Home />
