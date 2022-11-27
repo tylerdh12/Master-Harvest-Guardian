@@ -9,7 +9,7 @@ export const MainBanner = (props) => {
       </h1>
 
       <div className="center-buttons">
-        <Button href="https://expo.io/@tylerdh12/projects/Harvest_Guardian" variant="success" size="lg">
+        <Button href="https://app.harvestguardian.com" variant="success" size="lg">
           Get the App
         </Button>
       </div>
